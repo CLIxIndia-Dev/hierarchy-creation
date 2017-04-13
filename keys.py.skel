@@ -1,0 +1,31 @@
+KEYS = {
+    'localhost': {
+        'public_key': 'foo',
+        'secret_key': 'bar',
+        'host': 'example.com'
+    },
+    'dev': {
+        'public_key': 'foo',
+        'secret_key': 'bar',
+        'host': 'example.com'
+    },
+    'demo': {
+        'public_key': 'baz',
+        'secret_key': 'zim',
+        'host': 'example.com'
+    },
+    'prod': {
+        'public_key': 'pro',
+        'secret_key': 'con',
+        'host': 'example.com'
+    }
+}
+
+HANDCAR_KEYS = {
+    'localhost': '',
+    'dev': '',
+    'demo': '',
+    'prod': ''
+}
+
+# HOST = 'dev'
